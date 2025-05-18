@@ -8,7 +8,8 @@ import Balance from './components/Balance';
 import Login from './components/Login';
 
 const API_URL =
-  'https://script.google.com/macros/s/AKfycbvUYsCBhtiWID9kP4t_MtO2cxsgGyqFszzSIcliZqSfORD2xYstkyaTzQgBm6ZLxB8sjw/exec';
+const API_URL =
+'https://script.google.com/macros/s/AKfycbvUYsCBhtiWID9kP4t_MtO2cxsgGyqFszzSIcIiZqSfORD2xYstkyaTzQgBm6ZLxB8sjw/exec';
 
 const App = () => {
   const [deals, setDeals] = useState([]);
