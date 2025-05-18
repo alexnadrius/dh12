@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
+import { API_URL } from '../config'; 
 
-const API_URL =
-  'https://script.google.com/macros/s/AKfycbvUYsCBhtiWID9kP4t_MtO2cxsgGyqFszzSIcliZqSfORD2xYstkyaTzQgBm6ZLxB8sjw/exec';
 
 const Login = ({ setCurrentUser, onLoginSuccess }) => {
   const [phone, setPhone] = useState('');

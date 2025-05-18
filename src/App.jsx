@@ -6,9 +6,7 @@ import DealList from './components/DealList';
 import Chat from './components/Chat';
 import Balance from './components/Balance';
 import Login from './components/Login';
-
-const API_URL =
-  'https://script.google.com/macros/s/AKfycbvUYsCBhtiWID9kP4t_MtO2cxsgGyqFszzSIcIiZqSfORD2xYstkyaTzQgBm6ZLxB8sjw/exec';
+import { API_URL } from './config';
 
 const App = () => {
   const [deals, setDeals] = useState([]);
